@@ -1,0 +1,51 @@
+.project__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+
+  & > article {
+    background: #2c2c6c;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+
+    h4 {
+      margin: 1.2rem 0 2rem;
+    }
+
+    span {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project__image {
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+
+    &:hover {
+      border-color: rgba(77, 181, 255, 0.4);
+      background: transparent;
+    }
+  }
+}
+
+
+//==========MEDIA QUERY (TABLET DEVICES)===============
+@media screen and (max-width: 1024px) {
+    .project__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+        
+    }
+}
+
+//==========MEDIA QUERY (MOBILE DEVICES)===============
+@media screen and (max-width: 600px) {
+    .project__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+  }

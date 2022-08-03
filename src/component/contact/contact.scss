@@ -1,0 +1,96 @@
+$color-bg: #1f1f38;
+$color-bg-variant: #2c2c6c;
+$color-primary: #4db5ff;
+$color-primary-variant: rgba(77, 181, 255, 0.4);
+$color-white: #fff;
+$color-light: rgba(255, 255, 255, 0.6);
+$transition: all 400ms ease;
+
+h6 {
+  color: $color-light;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+small {
+  display: block;
+}
+
+#contact {
+  margin-top: 8rem;
+}
+
+.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+
+  .contact__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
+
+.contact__detail {
+  background: $color-bg-variant;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: $transition;
+  color: white;
+
+  a {
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+
+  &:hover {
+    background: transparent;
+    border-color: $color-primary-variant;
+  }
+}
+
+.contact__icon {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+// ==============FORM===============
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  resize: none;
+  background: transparent;
+  border: 2px solid $color-primary-variant;
+  color: white;
+}
+
+//==========MEDIA QUERY (TABLET DEVICES)===============
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+//==========MEDIA QUERY (MOBILE DEVICES)===============
+@media screen and (max-width: 600px) {
+  #contact {
+    .container {
+    //   height: max-content;
+      width: 90%;
+    }
+  }
+}

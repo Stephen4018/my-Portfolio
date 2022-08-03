@@ -1,0 +1,85 @@
+header {
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+
+  // ======style for the scroll down text that leads to the contact page=====//
+  .scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  //=======Image styles nested in the header__container(its parent)===========//
+  .me {
+    background: linear-gradient(#4db5ff, transparent);
+    width: 22rem;
+    height: 33rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+//===========CTA STYLES==========//
+.CTA {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+//===========SOCIAL MEDIA==========//
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+  gap: 0.8rem;
+  align-items: center;
+
+  &::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: #4db5ff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 70vh;
+    .container {
+      // border: 1px solid red;
+      height: 68vh;
+      overflow: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    .container {
+      // border: 1px solid green;
+      height: 100vh;
+
+      .header__socials,
+      .scroll__down {
+        display: none;
+      }
+    }
+  }
+}
