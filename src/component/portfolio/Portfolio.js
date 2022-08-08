@@ -13,9 +13,9 @@ function Portfolio() {
           <div className="project__image">
             <img src="images/envo.png" alt="" />
           </div>
-          <h4>this is repl project</h4>
+          <h4>Envo project</h4>
           <span>
-            <a href="https//:github.com" className="btn">
+            <a href="https://github.com/Stephen4018/envo" className="btn">
               Github
             </a>
             <a href="envo-project-ac4801.netlify.app" className="btn btn-primary">
@@ -30,7 +30,7 @@ function Portfolio() {
           </div>
           <h4>Pleasure Park discount App</h4>
           <span>
-            <a href="https//:github.com" className="btn">
+            <a href="https://github.com/Stephen4018/Pleasure-Park-Discoun-App" className="btn">
               Github
             </a>
             <a href="pleasure-park-discount-app-782a16.netlify.app" className="btn btn-primary">
@@ -43,9 +43,9 @@ function Portfolio() {
           <div className="project__image">
             <img src="images/yezzy.png" alt="" />
           </div>
-          <h4>this is repl project</h4>
+          <h4>Ecommerce Website</h4>
           <span>
-            <a href="https//:github.com" className="btn">
+            <a href="https://github.com/Stephen4018/Yeezy-Footies-Ecommerce" className="btn">
               Github
             </a>
             <a href="yeezy-footies-ecommerce-c1dea4.netlify.app" className="btn btn-primary">
@@ -53,7 +53,7 @@ function Portfolio() {
             </a>
           </span>
         </article>
-
+{/* 
         <article>
           <div className="project__image">
             <img src="images/project.png" alt="" />
@@ -97,7 +97,7 @@ function Portfolio() {
               Live Demo
             </a>
           </span>
-        </article>
+        </article> */}
       </div>
     </section>
   );

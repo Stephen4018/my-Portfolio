@@ -53,13 +53,13 @@ function Experience() {
               </div>
             </article>
 
-            <article>
+            {/* <article>
               <BsPatchCheckFill className="details__icon" />
               <div>
                 <h5 className="experience__language">HTML</h5>
                 <small className="experience__level">Experienced</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
 
@@ -70,7 +70,7 @@ function Experience() {
             <article>
               <BsPatchCheckFill className="details__icon" />
               <div>
-                <h5 className="experience__language">HTML</h5>
+                <h5 className="experience__language">Corel-Draw</h5>
                 <small className="experience__level">Experienced</small>
               </div>
             </article>
@@ -78,7 +78,7 @@ function Experience() {
             <article>
               <BsPatchCheckFill className="details__icon" />
               <div>
-                <h5 className="experience__language">CSS</h5>
+                <h5 className="experience__language">photoshop</h5>
                 <small className="experience__level">Intermidiate</small>
               </div>
             </article>
@@ -86,12 +86,12 @@ function Experience() {
             <article>
               <BsPatchCheckFill className="details__icon" />
               <div>
-                <h5 className="experience__language">JavaScript</h5>
+                <h5 className="experience__language">Figma</h5>
                 <small className="experience__level">Intermidiate</small>
               </div>
             </article>
 
-            <article>
+            {/* <article>
               <BsPatchCheckFill className="details__icon" />
               <div>
                 <h5 className="experience__language">Bootstrap</h5>
@@ -113,7 +113,7 @@ function Experience() {
                 <h5 className="experience__language">HTML</h5>
                 <small className="experience__level">Experienced</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>

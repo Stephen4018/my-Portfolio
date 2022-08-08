@@ -39,7 +39,7 @@ function Contact() {
           <article className="contact__detail">
             <AiOutlineMail className="contact__icon" />
             <h5>Email</h5>
-            <small>Stephenohaeri4018@gmail.com</small>
+            {/* <small>Stephenohaeri4018@gmail.com</small> */}
             <a href="mailto:stephenohaer4018@gmail.com" target="_blank">
               send a message
             </a>
