@@ -27,11 +27,11 @@ function About() {
             <About_card
               icon={<FaAward />}
               id="Experience"
-              text="2+ years Working"
+              text="1+ years Working"
             />
             <About_card icon={<FiUsers />} 
             id="Clients" 
-            text="20+ clients" 
+            text="10+ clients" 
             />
             <About_card
               icon={<BsFillFolderFill />}
@@ -41,10 +41,7 @@ function About() {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            quia assumenda quaerat cum fugit sint, officiis provident animi
-            consequuntur sed numquam perferendis possimus asperiores
-            reprehenderit a deleniti? Recusandae, enim nulla?
+          Front-End Developer who was formely a Engineer, i beacame enthusiastic about Tech as November 2022. i loved to design and create beautiful stuff on the web so i found myself in Frontend space starting out with HTML, CSS, JAVASCRIPT and REACT, these stacks has helped me to build awesome UserInterfaces. My story will not here as i am looking to pick up new languages to add to my stacks.
           </p>
 
           <a href="#contact" className="btn btn-primary">

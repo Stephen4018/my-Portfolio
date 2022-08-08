@@ -9,7 +9,7 @@ function Portfolio() {
        
       <div className="container project__container">
 
-        <article>
+        <article> 
           <div className="project__image">
             <img src="images/envo.png" alt="" />
           </div>
@@ -18,7 +18,7 @@ function Portfolio() {
             <a href="https//:github.com" className="btn">
               Github
             </a>
-            <a href="https//:github.com" className="btn btn-primary">
+            <a href="envo-project-ac4801.netlify.app" className="btn btn-primary">
               Live Demo
             </a>
           </span>
@@ -26,14 +26,14 @@ function Portfolio() {
 
         <article>
           <div className="project__image">
-            <img src="images/project.png" alt="" />
+            <img src="images/ppk.png" alt="" />
           </div>
-          <h4>this is repl project</h4>
+          <h4>Pleasure Park discount App</h4>
           <span>
             <a href="https//:github.com" className="btn">
               Github
             </a>
-            <a href="https//:github.com" className="btn btn-primary">
+            <a href="pleasure-park-discount-app-782a16.netlify.app" className="btn btn-primary">
               Live Demo
             </a>
           </span>
@@ -41,14 +41,14 @@ function Portfolio() {
 
         <article>
           <div className="project__image">
-            <img src="images/project.png" alt="" />
+            <img src="images/yezzy.png" alt="" />
           </div>
           <h4>this is repl project</h4>
           <span>
             <a href="https//:github.com" className="btn">
               Github
             </a>
-            <a href="https//:github.com" className="btn btn-primary">
+            <a href="yeezy-footies-ecommerce-c1dea4.netlify.app" className="btn btn-primary">
               Live Demo
             </a>
           </span>
