@@ -18,7 +18,7 @@ function Portfolio() {
             <a href="https://github.com/Stephen4018/envo" className="btn">
               Github
             </a>
-            <a href="envo-project-ac4801.netlify.app" className="btn btn-primary">
+            <a href="https://envo-stephen4018.vercel.app" className="btn btn-primary">
               Live Demo
             </a>
           </span>
