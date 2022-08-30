@@ -41,7 +41,7 @@ function About() {
           </div>
 
           <p>
-          Front-End Developer who was formely a petroleum Engineer, i beacame enthusiastic about Tech as at November 2021. i loved to design and create beautiful stuff on the web so i found myself in Frontend space starting out with HTML, CSS, JAVASCRIPT and REACT, these stacks has helped me to build awesome UserInterfaces. My story will not end here as i am looking to pick up new languages to add to my stacks.
+          Front-End Developer who was formely a petroleum Engineer, i became enthusiastic about Tech as at November 2021. i loved to design and create beautiful stuff on the web so i found myself in Frontend space starting out with HTML, CSS, JAVASCRIPT and REACT, these stacks has helped me to build awesome UserInterfaces. My story will not end here as i am looking to pick up new languages to add to my stacks.
           </p>
 
           <a href="#contact" className="btn btn-primary">
